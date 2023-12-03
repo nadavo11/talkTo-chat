@@ -64,7 +64,7 @@ function Controller() {
 	return (
 		<div className="h-screen overflow-y-hidden">
 			<Title setMessages={setMessages} />
-			<div className="flex flex-col justify-center items-center h-full">
+			<div className="flex flex-col justify-center items-center">
 				{/* {messeges} */}
 				<div className="mt-5 px-5">
 					<List
